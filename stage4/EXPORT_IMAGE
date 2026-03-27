@@ -1,4 +1,4 @@
-IMG_SUFFIX="-ae"
+IMG_SUFFIX="-ae-$(git rev-parse --short HEAD)"
 if [ "${USE_QEMU}" = "1" ]; then
 	export IMG_SUFFIX="${IMG_SUFFIX}-qemu"
 fi

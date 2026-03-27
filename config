@@ -7,3 +7,4 @@ PUBKEY_ONLY_SSH=1
 DEPLOY_COMPRESSION=gz
 DISABLE_FIRST_BOOT_USER_RENAME=1
 FIRST_USER_NAME=admin
+FIRST_USER_PASS=stonul  # TODO: i guess custom user management will be needed? 
